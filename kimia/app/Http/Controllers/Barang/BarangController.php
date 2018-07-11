@@ -10,7 +10,7 @@ class BarangController extends Controller
     // Data Barang
     public function databarang() {
         $indicator = 'databarang';
-        return view('pages.barang.databarang.home', compact('indicator'));
+        return view('admin.barang.databarang.home', compact('indicator'));
     }
 
     // Kategori Barang
